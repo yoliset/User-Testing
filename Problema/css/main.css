@@ -1,5 +1,5 @@
 *{
-   outline: 1px solid red;
+ 
 }
 
 }
@@ -11,96 +11,98 @@ body{
 }
 
 header .container{
-    padding: 10px 0px;
+    padding: 40px 0px;
     background:url(../image/large.jpg)no-repeat;
     background-size: cover;
     background-color: black;
     height: 520px;
     
+
+    
 }
 
-    
-    
-    
-    
-    
+header .img-responsive{
+    width: 200px
+}
 
-header .cajita{
+header li a{
     color: white;
-    
-    width: 600px;
-    font-size: 30px;
-    position: relative;
-    top: 200px;
-    left: 320px;
-    
-   
-   
+    font-size: 15px;
+    padding-left: 30px
 }
-header .row
-{
-    background-color:cornflowerblue;
-    opacity: 0.8;
-    position: relative;
-    top: 300px;
+
+header .frase{
+
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 180px;
+    color: white;
+}    
+header .row{
     margin: 0;
-    
-}
-header .row h1{
-    color: white;
-    float: right;
-    width: 335px;
-    font-size: 35px;
-    
-}
-header .row p{
-    font-size: 20px;
-}
-header .row span{
-    border-radius: 4px solid white;
-    color: white;
-    font-size: 35px;
-    padding: 10px;
+    background-color: #4e7fb8;
     position: relative;
-    top: 40px
+    top: 102px;
+    opacity: 0.9;
+    padding: 20px
 }
-header img{
-    width: 190px;
-}
-.list-menu{
-    float: right;
-    list-style: none;
-   margin-right: 50px;
-    padding: 0;
-    
-}
-    
-.list-menu li{
-    display: inline-block;
-    
-    
-}
-.list-menu li a{
-    display: block;
-    padding: 15px 20px;
+header h3{
     color: white;
+    float: right;
 }
+
+header .row p{
+    font-size: 14px;
+    padding-top: 5px;
+}
+header .row button{
+    border-radius: 2px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    top:30px;
+    background-color:#4e7fb8;
+}
+.hero hr{
+    position: relative;
+    width: 1167px;
+    left: -13px;
+
+    top: 150px
+}
+
 
 .hero 
 {
-    padding: 30px 0px;
+    
     text-align: center;
 
 }
+.icon-container{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin:0 auto;
+    font-size: 60px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    color: #a1c2ff;
+}
+
 .hero h1{
     text-align: center;
-    color: skyblue;
+    color: #a1c2ff;
+    font-size: 28px;
+    margin-bottom: 40px;
 }
-.hero .row{
-    text-align: center;
-}
+
 .hero h3{
-    color: blue;
+    color: #3f8fc5;
 }
 .hero .uno{
     font-size: 20px;
@@ -129,17 +131,90 @@ header img{
     margin-top: 80px;
 }
 .contenido h1{
-    color: blue;
+    color: #b1d3ff;
     text-align: center;
+}
+.contenido hr{
+    position: relative;
+    top: 75px;
+    width: 680px;
+    left: -110px
 }
 .contenido .row .imagen{
     background: url(../image/sec-2.jpg)no-repeat;
     background-size:cover;
-    width: 410px;
-    height: 380px;
+    width: 390px;
+    height: 340px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
+    
 }
+.contenido  .icon-contenido1 {
+   width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+
+    border-radius: 200px;
+    color: white;
+    background-color: #58a5ff;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    
+}
+.contenido  .icon-contenido2 {
+   width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+    border-radius: 200px;
+    color: white;
+    background-color: #58a5ff; 
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+.contenido  .icon-contenido3 {
+   width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+    border-radius: 200px;
+    color:white;
+    background-color: #58a5ff;
+    position: relative;
+    top: 110px;
+    left: 200px;
+}
+.contenido  .icon-contenido4 {
+    margin:0 auto;
+    text-align: center;
+    color: white;
+    width: 60px;
+    position: relative;
+    top: 150px;
+    left: 370px;
+
+    
+    
+}
+.contenido .imag{
+    margin-top: 60px;
+    width: 470px;
+    
+}
+
+
 .contenido h1 img{
     width: 190px;
     
@@ -148,7 +223,7 @@ header img{
 
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
 
 }
 .contenido h2{
@@ -165,22 +240,26 @@ header img{
     margin-left: 35px;
     margin-right: 50px;
     font-size: 13px;
-    padding-bottom: 20px;
-    padding-top: 10px
+    padding-bottom: 4px;
 }
 .contenido ul{
     font-size: 13px;
+    
     margin-left: 30px
+}
+.contenido li{
+    padding-bottom: 5px;
 }
 .contenido .row .img-responsive{
     width: 500px
 }
 .relleno{
     margin-top: 140px;
+    
 }
 .relleno .container
 {
-    background-color:cornflowerblue;
+    background-color:#4e7fb8;
     opacity: 0.8;    
     
 }
@@ -194,18 +273,20 @@ margin: 0 auto;
     
 }
 .relleno .row p{
-    font-size: 15px;
-    text-align: center
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
 }
-.relleno .row span{
-    border-radius: 4px solid white;
+.relleno .row button{
+    border-radius: 4px;
+    border: 2px solid white;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
-    left: 150px;
-    
-    padding: 10px;
-    top: 50px
+    left: 120px;
+    background-color:#4e7fb8; 
+    padding: 3px 25px 3px 25px;
+    top: 40px;
 }
 
 footer .container{
@@ -230,7 +311,17 @@ footer p{
     font-size: 12px;
     float: right;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 295px
+
+    
+}
+footer i{
+    font-size:30px;
+    color: blue;
+    float: right;
+    
+
     
 }
 
@@ -238,23 +329,7 @@ footer p{
     .container{
         width: 600px;
     }
-   .icon-list2{
-        display: inline-block;
-        float: right;
-        color: white;
-        font-size: 20px;
-    }
-    .col-1, .col-2, .col-3{
-        width: 100%;
-    }
-    .list-menu{
-        display: none;
-    }
-    .col-2{
-        display: none;
-
-    }
-    
+   
     
 }
 
@@ -262,15 +337,13 @@ footer p{
 @media screen and ( max-width:600px){
      
     .container{
-        width: 100
+        width: 100%;
     }
-    .list-menu{
+    .list-inline{
         display: none;
     }
-    .col-2{
-        display: none;
-    }
-    .col-1, .col-2, .col-3{
+    
+    .col-md-6, .col-md-4, .col-md-7, col-md-5{
         width: 100%;
     }
     .block-form{
