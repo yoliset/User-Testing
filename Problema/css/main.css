@@ -1,0 +1,281 @@
+*{
+   outline: 1px solid red;
+}
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+  
+}
+
+header .container{
+    padding: 10px 0px;
+    background:url(../image/large.jpg)no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 520px;
+    
+}
+
+    
+    
+    
+    
+    
+
+header .cajita{
+    color: white;
+    
+    width: 600px;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    left: 320px;
+    
+   
+   
+}
+header .row
+{
+    background-color:cornflowerblue;
+    opacity: 0.8;
+    position: relative;
+    top: 300px;
+    margin: 0;
+    
+}
+header .row h1{
+    color: white;
+    float: right;
+    width: 335px;
+    font-size: 35px;
+    
+}
+header .row p{
+    font-size: 20px;
+}
+header .row span{
+    border-radius: 4px solid white;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    position: relative;
+    top: 40px
+}
+header img{
+    width: 190px;
+}
+.list-menu{
+    float: right;
+    list-style: none;
+   margin-right: 50px;
+    padding: 0;
+    
+}
+    
+.list-menu li{
+    display: inline-block;
+    
+    
+}
+.list-menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.hero 
+{
+    padding: 30px 0px;
+    text-align: center;
+
+}
+.hero h1{
+    text-align: center;
+    color: skyblue;
+}
+.hero .row{
+    text-align: center;
+}
+.hero h3{
+    color: blue;
+}
+.hero .uno{
+    font-size: 20px;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hero .dos{
+    font-size: 20px;
+    width: 160px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hero .tres{
+    font-size: 20px;
+    width: 190px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hero p{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.hero img {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.contenido h1{
+    color: blue;
+    text-align: center;
+}
+.contenido .row .imagen{
+    background: url(../image/sec-2.jpg)no-repeat;
+    background-size:cover;
+    width: 410px;
+    height: 380px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.contenido h1 img{
+    width: 190px;
+    
+}
+.contenido .row h5{
+
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+.contenido h2{
+    margin-left: 25px;
+    font-size: 26px;
+    margin-top: 80px
+}
+.contenido h3{
+    color: blueviolet; font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.contenido p{
+    margin-left: 35px;
+    margin-right: 50px;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 10px
+}
+.contenido ul{
+    font-size: 13px;
+    margin-left: 30px
+}
+.contenido .row .img-responsive{
+    width: 500px
+}
+.relleno{
+    margin-top: 140px;
+}
+.relleno .container
+{
+    background-color:cornflowerblue;
+    opacity: 0.8;    
+    
+}
+.relleno .container h2{
+    color: white;
+margin: 0 auto;
+    width: 240px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.relleno .row p{
+    font-size: 15px;
+    text-align: center
+}
+.relleno .row span{
+    border-radius: 4px solid white;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+    
+    padding: 10px;
+    top: 50px
+}
+
+footer .container{
+    
+    margin: 0 auto;
+    
+    color: white;
+    background-color: #1c1821;
+    padding: 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 5px;
+    font-size: 12px;
+}
+footer a{
+    color: darkturquoise;
+}
+footer p{
+    font-size: 12px;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 50px;
+    
+}
+
+@media screen and (max-width:920px){
+    .container{
+        width: 600px;
+    }
+   .icon-list2{
+        display: inline-block;
+        float: right;
+        color: white;
+        font-size: 20px;
+    }
+    .col-1, .col-2, .col-3{
+        width: 100%;
+    }
+    .list-menu{
+        display: none;
+    }
+    .col-2{
+        display: none;
+
+    }
+    
+    
+}
+
+
+@media screen and ( max-width:600px){
+     
+    .container{
+        width: 100
+    }
+    .list-menu{
+        display: none;
+    }
+    .col-2{
+        display: none;
+    }
+    .col-1, .col-2, .col-3{
+        width: 100%;
+    }
+    .block-form{
+        margin: 0;
+    }
+    
+    
+}
