@@ -1,106 +1,26 @@
-header{
-    background: url(../image/large.jpg)no-repeat;
-    background-size: cover;
-    height: 740px;
-    
+.formulario{
+	background: url(../image/large.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 800px;
 }
-header .caja{
-    
-    background-color: white;
-    position: relative;
-    top: 160px;
-    width: 600px;
-    left: 360px;
-    height: 304px;
-    padding-left: 60px;
-    padding-right: 60px;
-    border-top: 6px solid blue;
+.cajita{
+	background-color: white;
+	padding: 20px;
+	border-top-color: skyblue;
+    border-top-width: 10px;
+    border:1px;
 }
-header h1{
-    font-size: 20px;
-}
-header input{
-    padding-right: 90px;
-}
-header #Nombre{
-    position: relative;
-    left: 63px;
-}
-header #Email{
-    position: relative;
-    left: 80px;
-}
-header #url {position: relative;
-    left: 14px;
-    padding-bottom: 50px;
-}
-header button{
-    background-color: blue;
-    color: white;
-position: relative;
-    left: 136px;
-    top: -5px;
-}
-header #text{
-    width: 50px;
-    position: relative;
-    left: 166px;
-    top: -15px;        
-}
-header h5{
-position: relative;
-    top: -18px;
-    left: -50px;
-}
-header span{
-    position: relative;
-    float: right;
-    left: 80px;
-}
-form a{
-    color: red;
+.cajita 
+{
+	width: 50%;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
-
-
-
-@media screen and (max-width:1000px){
-    
-    }
-    .caja{
-        width:200px;
-    
-    }
-    header{
-        width: auto;
-    
-    }
-   
-    
+.punto{
+	color:red;
 }
-
-
-@media screen and ( max-width:600px){
-     
-    .container{
-        width: 100%;
-    }
-    .list-inline{
-        display: none;
-    }
-    .caja{
-        width: auto;
-    }
-    
-    .col-md-6, .col-md-4, .col-md-7, col-md-5{
-        width: 100%;
-    }
-    .block-form{
-        margin: 0;
-    }
-    
-    
-}
-
-
-
