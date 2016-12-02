@@ -21,39 +21,40 @@
 	
 </head>
 <body>
-<section class="header">
- <div class="degradado">
-   <header>     
+<header>
+ <div class="degradado">   
     <div class="container">
          <div class="row">
-            <div class="col-md-4 col-xs-8">
+            <div class="col-md-3  col-sm-12 col-xs-6">
                  <img  class="logo" src="image/user-r.png" class="img-responsive" alt="">
             </div>
-            <div class="col-md-8 col-xs-4">
-              <nav class="navbar hamburguesa1" role="navigation">
-					  <div class="navbar-header">
-					    <button type="button" class="navbar-toggle" data-toggle="collapse"
-					            data-target=".navbar-ex1-collapse">
-					      <span class="sr-only">Desplegar navegación</span>
-					      <span class="icon-bar" ></span>
-					      <span class="icon-bar"></span>
-					      <span class="icon-bar"></span>
-					      <span class="icon-bar"></span>
-					      </button>
-					  </div>
+            <div class="col-md-9 col-xs-12 col-xs-6">
+					  <div class="text-right visible-xs">
+                         <button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+						</div>
 
-					  <div class="collapse navbar-collapse navbar-ex1-collapse hamburguesa2">
-					  
-					    <ul class="nav navbar-nav navbar-right">
-					      <li><a href="#">¿Qué me ofrece?</a></li>
-					      <li><a href="#">¿Cómo puedo usarlo?</a></li>
-					      <li><a href="#">¿Cómo funciona?</a></li>
-					      <li><a href="contact.html">Contáctanos</a></li>
-					    </ul>
-					  </div>
+						<nav class="hidden-xs">
+							<ul class="desktop-menu list-inline text-right">
+								<li><a href="#">¿Qué me ofrece?</a></li>
+								<li><a href="#">¿Cómo funciona?</a></li>
+								<li><a href="#">¿Por qué usarlo?</a></li>
+								<li><a href="#">Contactanos</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<nav class="visible-xs">
+					<div id="main-navigation" class="collapse">
+						<ul  class="mobile-menu text-right">
+							<li><a href="#">¿Qué me ofrece?</a></li>
+							<li><a href="#">¿Cómo funciona?</a></li>
+							<li><a href="#">¿Por qué usarlo?</a></li>
+							<li><a href="#">Contactanos</a></li>
+						</ul>
+					</div>
 				</nav>
-              </div>
-			</div>
+
                 
             
         <div class="frase"> 
@@ -61,15 +62,13 @@
                 utilizando tu sitio web, en 1 hora</h2>
         </div>
      </div>
+    </div>
      </header>
- </div>
-</section>
    
 <section class="banner-header">
     <div class="container-fluid">  
         <div class="row">
              <div class="col-md-6 col-xs-12 centrado">
-                 
 				   <div class="centrar">
 				     <h3 class="text-center">PRUEBA GRATUITA</h3>
 				     <h5 class="text-center">Obtén un video de 5 minutos gratis</h5>

@@ -3,13 +3,45 @@
 
 
 }
-ul li a{
-	list-style: none;
-	text-decoration: none;
-	color:#fffdfd;
+body
+{
+	font-family: Lato;
 }
-nav{
-	margin-top: 5%;
+/*--------- Header */
+header
+{
+	background: url(../image/large.jpg);
+	background-size: cover;
+	color: #FFF;
+}
+header a{
+	color: #FFF;
+}
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus{
+	text-decoration: none;
+	outline: none;
+	background: #FFF;
+}
+
+#main-navigation
+{
+	z-index: 1;
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul
+{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
 }
 .degradado{
 	height: 100%;
@@ -146,16 +178,16 @@ header{
 }
 .relleno4 h4{
 	margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px; 
 }
 .relleno4 li{
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-top: 9px;
 }
 .relleno4 .logo2{
 	width: 200px;
-	margin-top: -47px;
-    margin-left: 165px;
+	margin-top: -40px;
+    margin-left: 175px;
 }
 .relleno2 .flecha{
 	margin-top: 40px;
@@ -164,12 +196,17 @@ header{
 /*relleno3*/
 .relleno3 h4{
 	color:#68adff;
+    
 }
 .relleno3 .informacion{	
-	font-size: 12px;
+	font-size: 15px;
 	padding-left: 77px;
 }
-
+.relleno3 li{
+    font-size: 15px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
 /*separador2*/
 .separador2 hr{
 	vertical-align: middle;
@@ -265,12 +302,10 @@ footer a{
 	background: url(../image/sec-2.jpg)no-repeat;
 	background-size: cover;
 	position: relative;
+    width: 100%;
 }
-.oscuro-mult{
-	background: #000;
-	background-color:rgba(22,17,49,0.5);
-	height: 100%;
-}
+
+
 .navbar-custom .navbar-brand {
   color: blueviolet;
     
@@ -288,3 +323,16 @@ footer a{
     
 }
 
+@media screen and (max-width:768px)
+{
+    .relleno2 .logo2{
+        width: 160px;
+    }
+    .frase h2{
+        font-size: 23px;
+    }
+    .relleno4 .logo2{
+        width: 160px;
+    }
+    
+}
